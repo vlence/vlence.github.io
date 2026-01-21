@@ -1,6 +1,0 @@
-# always ignore the node_modules directory
-node_modules/
-
-# always ignore project files from the source branch
-src/
-build/
