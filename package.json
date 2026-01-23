@@ -1,0 +1,15 @@
+{
+  "name": "diyweb.dev",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:vlence/diyweb.dev.git",
+  "author": "Victor Basumatary",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18"
+  },
+  "scripts": {
+    "build": "hugo build -e production --gc --minify",
+    "start": "hugo server -p 8080 -D"
+  }
+}

@@ -1,0 +1,5 @@
+baseURL = "https://vlence.github.io/"
+
+[caches]
+        [caches.images]
+                dir = ":cacheDir/images"
