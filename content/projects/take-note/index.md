@@ -12,16 +12,17 @@ in.
 
 ## Planned Features
 
-- [ ] Select text on any website and provide a context
+- [x] Select text on any website and provide a context
 menu option to take a note
-    - [ ] Limit text size to 1 KB (~1000 characters)
+- [ ] Limit note size to 1 KB (~1000 characters)
 - [ ] Store notes locally, on device
 - [ ] Find notes by website, ordered by latest to oldest
-- [ ] Rich text
+- Rich text
     - [ ] Bold
     - [ ] Italic
     - [ ] Underlined
     - [ ] Strikethrough
+    - [ ] Links
 - [ ] Images (max 1 MB per image and one image per note)
 
 ## Progress
