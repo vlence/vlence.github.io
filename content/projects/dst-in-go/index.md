@@ -1,0 +1,52 @@
+---
+title: "Deterministic Simulation Testing in Go"
+summary: |
+    Inspired by the VOPR in TigerBeetle. A library that
+    attempts to provide deterministic simulation testing
+    for Go applications.
+date: 2026-01-23T14:17:58+08:00
+draft: false
+github: vlence/simtest-go
+---
+
+I came across the idea of deterministic simulation testing
+when I watched the conversation between the TigerBeetle
+CEO and ThePrimeagen. During the conversation he mentioned
+that they built a tool called the VOPR, which would
+deterministically inject faults into their application
+and test it.
+
+The goal of DST is to uncover novel bugs before they occur
+in production. This is achieved by first removing all
+sources of randomness in our application. Some sources of
+randomness include time, I/O devices, and OS thread
+scheduling. When sources of randomness is removed we can
+be sure that the application code is executed in the exact
+same manner, and in the exact same order, every single
+time.
+
+The reason why we want the app to run deterministically
+is so that we can trace the exact code path the app took
+to encounter a bug. This is powerful because more often
+than not we find bugs in production that we simply cannot
+reproduce.
+
+The simulation aspect of DST is mainly focused on
+simulating the kind of faults we find in the real world:
+dropped packets, duplicated packets, high latencies,
+something completely unexpected like bit rot, etc. By
+simulating these faults we can observe how our app behaves
+before it happens in the real world.
+
+## Progress
+
+- [ ] Build a clock
+    - [ ] Build interface that can return current time
+    - [ ] The interface accepts a callback function and
+    executes it after a given amount of time
+- [ ] Build a scheduler
+    - [ ] Build interface that accepts tasks
+    - [ ] Tasks are executed in the same goroutine
+- [ ] Simulated I/O
+    - [ ] Basic filesystem. File open, read, write
+    - [ ] Basic network. Dial, connect, read, write
