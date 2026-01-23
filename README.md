@@ -1,6 +1,6 @@
 # diyweb.dev
 
-The source for [diyweb.dev](https://diyweb.dev).
+The source for [vlence.github.io](https://vlence.github.io).
 
 ## Running & building locally
 
