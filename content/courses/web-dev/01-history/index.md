@@ -3,8 +3,6 @@ title: "Brief History of The Web"
 date: 2023-10-12T15:51:37+05:30
 ---
 
-# A Brief History of The Web.
-
 We've all used computers and are very grateful for them. They're fast
 and do exactly what they're told (programmed) to do. A single computer today
 is able to browse the internet, play music and video games, write
@@ -311,4 +309,4 @@ beginnings of giants like Yahoo, Google and Amazon.
 
 Well what's next is start learning about these technologies! Yes we've
 covered a lot on this page but I promise we will go through them one-by-one
-in a simple way. We will [start with HTML]({{% relref "courses/web-dev/02-html" %}}).
+in a simple way. We will [start with HTML](../02-html/).

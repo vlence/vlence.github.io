@@ -15,9 +15,18 @@
 
 <body>
         <header class="mt-10">
-                <a href="{{ absURL "" }}" class="text-2xl font-mono">
-                        victor basumatary
-                </a>
+                <div>
+                        <a href="{{ absURL "" }}" class="text-2xl font-mono">
+                                victor basumatary
+                        </a>
+                </div>
+                <nav class="mt-10">
+                        {{ range .Site.Menus.main }}
+                        <a href="{{ .PageRef }}">
+                                {{ .Name }}
+                        </a>
+                        {{ end }}
+                </nav>
         </header>
 
         <main class="mt-10">

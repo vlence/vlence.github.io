@@ -1,6 +1,24 @@
 languageCode = 'en-us'
 title = 'DIY Web Dev'
 
+[markup]
+        [markup.highlight]
+                style = 'catppuccin-latte'
+
+[menus]
+        [[menus.main]]
+                name = 'Course'
+                pageRef = '/courses/web-dev/'
+        [[menus.main]]
+                name = 'Projects'
+                pageRef = '/projects/'
+        [[menus.main]]
+                name = 'Blog'
+                pageRef = '/blog/'
+        [[menus.main]]
+                name = 'Resume'
+                pageRef = '/resume/'
+
 [build]
         [build.buildStats]
                 enable = true
