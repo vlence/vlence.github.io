@@ -56,7 +56,7 @@ body {
 
         ol {
                 @apply list-decimal;
-                @apply pl-4;
+                @apply pl-8;
         }
 
         hr {
