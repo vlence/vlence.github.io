@@ -1,9 +1,9 @@
 ---
 title: "Deterministic Simulation Testing in Go"
 summary: |
-    Inspired by the VOPR in TigerBeetle. A library that
-    attempts to provide deterministic simulation testing
-    for Go applications.
+    A library that attempts to provide deterministic
+    simulation testing for Go applications. Inspired
+    by the VOPR in TigerBeetle.
 date: 2026-01-23T14:17:58+08:00
 draft: false
 github: vlence/simtest-go
@@ -38,15 +38,17 @@ something completely unexpected like bit rot, etc. By
 simulating these faults we can observe how our app behaves
 before it happens in the real world.
 
-## Progress
+## Planned features & progress
 
-- [ ] Build a clock
-    - [ ] Build interface that can return current time
-    - [ ] The interface accepts a callback function and
-    executes it after a given amount of time
-- [ ] Build a scheduler
-    - [ ] Build interface that accepts tasks
-    - [ ] Tasks are executed in the same goroutine
+- [ ] Simulated clock
+    - [ ] Get current time
+    - [ ] Register callback that is called after at least
+    the given amount of time has passed
+    - [ ] Register callback that is called at regular
+    intervals
+    - [ ] Sleep
+    - [ ] Cancel timers
 - [ ] Simulated I/O
-    - [ ] Basic filesystem. File open, read, write
-    - [ ] Basic network. Dial, connect, read, write
+    - [ ] Filesystem
+    - [ ] Network
+- [ ] Simulated faults
