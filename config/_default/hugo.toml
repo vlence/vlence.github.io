@@ -7,8 +7,8 @@ title = 'Victor Basumatary'
 
 [menus]
         [[menus.main]]
-                name = 'Course'
-                pageRef = '/courses/web-dev/'
+                name = 'Courses'
+                pageRef = '/courses/'
         [[menus.main]]
                 name = 'Projects'
                 pageRef = '/projects/'
