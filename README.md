@@ -1,4 +1,4 @@
-# diyweb.dev
+# My personal website
 
 The source for [vlence.github.io](https://vlence.github.io).
 
