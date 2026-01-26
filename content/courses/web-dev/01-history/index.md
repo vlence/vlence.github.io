@@ -1,6 +1,6 @@
 ---
 title: "Brief History of The Web"
-date: 2023-10-12T15:51:37+05:30
+date: '2023-10-12T15:51:37+05:30'
 ---
 
 We've all used computers and are very grateful for them. They're fast
