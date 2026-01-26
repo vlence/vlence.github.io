@@ -59,7 +59,20 @@ body {
                 @apply pl-8;
         }
 
+        ul, ol {
+                @apply mt-10;
+        }
+
+        p+ul, p+ol {
+                @apply mt-5;
+        }
+
         hr {
                 @apply mt-20
+        }
+
+        code:not(pre code) {
+                @apply font-serif;
+                @apply font-bold;
         }
 }

@@ -3,7 +3,7 @@ title = 'Victor Basumatary'
 
 [markup]
         [markup.highlight]
-                style = 'catppuccin-latte'
+                style = 'monokai'
 
 [menus]
         [[menus.main]]

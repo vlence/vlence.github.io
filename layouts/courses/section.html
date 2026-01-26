@@ -3,14 +3,14 @@
 
 {{ .Content }}
 
-<ol class="mt-10">
+<ol>
         {{ range .Sections.ByDate }}
-        <li>
+        <li class="mt-2">
                 <a href="{{ .RelPermalink }}">
                         {{ .Title }}
                 </a>
-                ({{ .Params.Status }})
-                {{ .Summary }}
+                ({{ .Params.Status }}).
+                {{ .Summary | plainify }}
         </li>
         {{ end }}
 </ol>
