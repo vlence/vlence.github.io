@@ -52,3 +52,7 @@ before it happens in the real world.
     - [ ] Filesystem
     - [ ] Network
 - [ ] Simulated faults
+- [ ] Simulated nodes
+    - [ ] Scheduler
+    - [ ] Network interface
+- [ ] Simulator. Tie it all together.
