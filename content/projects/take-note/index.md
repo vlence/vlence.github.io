@@ -5,10 +5,10 @@ draft: false
 github: vlence/takenote
 ---
 
-Take Note is a simple tool to take notes about interesting
-things you read about on the internet. It is meant to be
-an unintrusive tool for you to write down your thoughts
-in.
+Take notes about interesting things you read about on the
+internet without leaving your browser.
+
+<!--more-->
 
 ## Planned Features
 

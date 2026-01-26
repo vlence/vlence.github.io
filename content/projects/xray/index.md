@@ -6,6 +6,8 @@ github: vlence/xray
 website: https://vlence.github.io/xray/
 ---
 
-A simple tool to inspect the binary contents of files.
+Inspect the binary contents of files.
+
+<!--more-->
 
 *Under construction. Come back later.*

@@ -1,17 +1,17 @@
 ---
 title: "Deterministic Simulation Testing in Go"
-summary: |
-    A library that attempts to provide deterministic
-    simulation testing for Go applications. Inspired
-    by the VOPR in TigerBeetle.
 date: 2026-01-23T14:17:58+08:00
 draft: false
 github: vlence/simtest-go
 ---
 
+Inspired by the VOPR in TigerBeetle.
+
+<!--more-->
+
 I came across the idea of deterministic simulation testing
-when I watched the conversation between the TigerBeetle
-CEO and ThePrimeagen. During the conversation he mentioned
+when I watched [the conversation between the TigerBeetle
+CEO and ThePrimeagen](https://www.youtube.com/watch?v=sC1B3d9C_sI). During the conversation he mentioned
 that they built a tool called the VOPR, which would
 deterministically inject faults into their application
 and test it.
@@ -38,7 +38,7 @@ something completely unexpected like bit rot, etc. By
 simulating these faults we can observe how our app behaves
 before it happens in the real world.
 
-## Planned features & progress
+## Planned Features & Progress
 
 - [ ] Simulated clock
     - [ ] Get current time
