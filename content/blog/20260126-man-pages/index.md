@@ -168,6 +168,9 @@ documentation refered to `open` as "open(1)". This
 notation is used throughout man pages. The number in the
 parenthesis is the man pages section.
 
+Knowing which section a certain term might belong to helps
+narrow down the search for the appropriate documentation.
+
 ## I Still Feel Lost
 
 Most man pages sections have an "intro" entry. Try it:
