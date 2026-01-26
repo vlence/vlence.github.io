@@ -66,6 +66,10 @@ body {
         p+ul, p+ol {
                 @apply mt-5;
         }
+        
+        li>ol, li>ul {
+                @apply mt-0;
+        }
 
         hr {
                 @apply mt-20
