@@ -5,9 +5,14 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+        <title>
+        {{ block "title" . }}
+                {{ with .Params.Title }}{{ . }} | {{ end }}
+                {{ .Site.Title }}
+        {{ end }}
+        </title>
         <link rel="icon" href="{{ relURL " logo.ico" }}">
-        <meta name="description" content="{{ partial "about-me.html" . }}">
+        <meta name="description" content="{{ or (.Summary | plainify) (partial "about-me.html" .) }}">
         {{ with (templates.Defer (dict "key" "global")) }}
         {{ partial "css.html" . }}
         {{ end }}

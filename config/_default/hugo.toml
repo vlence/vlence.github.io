@@ -3,12 +3,12 @@ title = 'Victor Basumatary'
 
 [markup]
         [markup.highlight]
-                style = 'catppuccin-latte'
+                style = 'monokai'
 
 [menus]
         [[menus.main]]
-                name = 'Course'
-                pageRef = '/courses/web-dev/'
+                name = 'Courses'
+                pageRef = '/courses/'
         [[menus.main]]
                 name = 'Projects'
                 pageRef = '/projects/'

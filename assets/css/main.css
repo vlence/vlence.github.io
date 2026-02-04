@@ -40,8 +40,13 @@ body {
         }
 
         p,
-        div.highlight {
+        .highlight {
                 @apply mt-10;
+        }
+
+        .highlight pre {
+                @apply p-10;
+                @apply overflow-auto;
         }
 
         a {
@@ -59,7 +64,24 @@ body {
                 @apply pl-8;
         }
 
+        ul, ol {
+                @apply mt-10;
+        }
+
+        p+ul, p+ol {
+                @apply mt-5;
+        }
+        
+        li>ol, li>ul {
+                @apply mt-0;
+        }
+
         hr {
                 @apply mt-20
+        }
+
+        code:not(pre code) {
+                @apply font-serif;
+                @apply font-bold;
         }
 }

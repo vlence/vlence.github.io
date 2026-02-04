@@ -1,4 +1,4 @@
-# diyweb.dev
+# My personal website
 
 The source for [vlence.github.io](https://vlence.github.io).
 
@@ -33,4 +33,5 @@ generate the CSS. The main entry point for the CSS is
 
 ## Deployment
 
-Website is deployed to vercel.
+Website is deployed to Github pages using Github Actions.
+See `.github/workflows/static.yaml`.

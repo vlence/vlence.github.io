@@ -3,14 +3,14 @@
 
 {{ .Content }}
 
+<p>The following are the lessons in order:</p>
+
 <ol>
-        {{ range .Sections.ByDate }}
-        <li class="mt-2">
+        {{ range .Pages.ByDate }}
+        <li>
                 <a href="{{ .RelPermalink }}">
                         {{ .Title }}
                 </a>
-                ({{ .Params.Status }}).
-                {{ .Summary | plainify }}
         </li>
         {{ end }}
 </ol>

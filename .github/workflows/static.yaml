@@ -1,6 +1,6 @@
 # Follow this tutorial https://gohugo.io/host-and-deploy/host-on-github-pages/
 
-name: Deploy diyweb.dev to Github Pages
+name: Deploy to Github Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -48,6 +48,7 @@ jobs:
       uses: actions/setup-node@v6
       with:
         node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5

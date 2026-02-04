@@ -1,8 +1,7 @@
 ---
 date: '{{ .Date }}'
-draft: false
+draft: true
 title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
-github: vlence/{{.File.ContentBaseName}}
 ---
 
 *Under construction. Come back later.*

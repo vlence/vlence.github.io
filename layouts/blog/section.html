@@ -1,20 +1,15 @@
 {{ define "main" }}
-<h1>{{ .Page.Title }}</h1>
-
+<h1>{{ .Title }}</h1>
 {{ .Content }}
 
-<h2>Highlighted</h2>
+<h2>Latest Posts</h2>
 
-<p>The following projects are the most interesting,
-according to me:</p>
-
-<ul>
-        {{ range .Pages }}
+<ol>
+        {{ range .Pages.ByDate.Reverse.Limit 5 }}
         <li>
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
                 {{ .Summary | plainify }}
         </li>
         {{ end }}
-</ul>
-
+</ol>
 {{ end }}
