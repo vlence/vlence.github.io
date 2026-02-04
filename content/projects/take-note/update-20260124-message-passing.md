@@ -1,8 +1,13 @@
 ---
-title: "Building Take Note"
+title: Passing Messa- I Mean Notes
 date: 2026-01-24T00:35:33+08:00
-draft: true
+draft: false
 ---
+
+When the user highlights some text, right clicks on it,
+and selects the "Take Note" context menu, a side panel
+opens with the highlighted text and a form for the user
+to type their note.
 
 One of the challenges was figuring out how to pass the
 selected text in the tab to the side panel.
