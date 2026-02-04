@@ -10,7 +10,13 @@ internet without leaving your browser.
 
 <!--more-->
 
-## Planned Features
+## Goals
+
+- Simple to use
+- Intuitive interface
+- Store notes in user's computer, not in servers
+
+## Features
 
 - [x] Select text on any website and provide a context
 menu option to take a note (Completed 23 Jan 2026)
@@ -24,12 +30,3 @@ menu option to take a note (Completed 23 Jan 2026)
     - [ ] Strikethrough
     - [ ] Links
 - [ ] Images (max 1 MB per image and one image per note)
-
-## Progress
-
-- [ ] Build a basic v1
-    - [ ] Take notes locally
-    - [ ] View notes locally
-- [ ] Publish as browser extension
-    - [ ] Chrome
-    - [ ] Safari
