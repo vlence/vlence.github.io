@@ -40,8 +40,13 @@ body {
         }
 
         p,
-        div.highlight {
+        .highlight {
                 @apply mt-10;
+        }
+
+        .highlight pre {
+                @apply p-10;
+                @apply overflow-auto;
         }
 
         a {

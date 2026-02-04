@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article>
+        <h1>{{ .Page.Title }}</h1>
+
+        {{ .Content }}
+</article>
+
+{{ with .Resources.Match "update*.md" }}
+{{ if gt (len .) 0 }}
+<hr>
+
+<aside>
+        <section>
+                <h1>Latest Update</h1>
+
+                {{ with index (first 1 .) 0 }}
+                {{ partial "update" . }}
+                {{ end }}
+        </section>
+
+        <section>
+                <h1>Previous Updates</h1>
+
+                {{ range collections.Reverse (last (sub (len .) 1) .) }}
+                {{ partial "update" . }}
+                {{ end }}
+        </section>
+</aside>
+{{ end }}
+{{ end }}
+
+{{ end }}

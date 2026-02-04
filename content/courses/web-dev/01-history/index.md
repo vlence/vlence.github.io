@@ -230,8 +230,8 @@ while in fact. This entire website is just HyperText! Consider the following
 lines of text:
 
 ```html
-    This is paragraph 1.
-    This is paragraph 2.
+This is paragraph 1.
+This is paragraph 2.
 ```
 
 How does the computer know that they're two paragraphs? Well it doesn't.
@@ -239,8 +239,8 @@ Computers are stupid. We need to tell them that they're two paragraphs.
 Here is how we can tell the computer this in HTML:
 
 ```html
-    <p>This is paragraph 1.</p>
-    <p>This is paragraph 2.</p>
+<p>This is paragraph 1.</p>
+<p>This is paragraph 2.</p>
 ```
 
 See the funny looking things like `<p>`? These are called

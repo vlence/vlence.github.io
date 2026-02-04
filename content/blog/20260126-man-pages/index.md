@@ -14,7 +14,7 @@ systems. If you don't know what it is open up a terminal
 and type:
 
 ```console
-    man man
+man man
 ```
 
 You are greeted with a wall of well-formatted text.
@@ -42,7 +42,7 @@ and start over again.
 Let's open `man`'s man pages again.
 
 ```console
-    man man
+man man
 ```
 
 Now that we are armed with the knowledge of `q` we can
@@ -89,7 +89,7 @@ sections is important; we will come back to this later.
 To list all the man pages available we can run:
 
 ```console
-    man -k .
+man -k .
 ```
 
 This runs `man` in apropos mode and only searches for
@@ -105,7 +105,7 @@ want to find all man pages whose names and/or descriptions
 contain the word "open" I would do:
 
 ```console
-    man -k open
+man -k open
 ```
 
 Earlier we tried `man -k .`. The `.` matches with every
@@ -114,7 +114,7 @@ name and description so all man pages are returned.
 Instead of typing `man -k` I can type `apropos`:
 
 ```console
-    apropos open
+apropos open
 ```
 
 And I will get the same result.
@@ -145,14 +145,14 @@ If I know I want to read the docs of the system call
 calls section:
 
 ```console
-    man 2 open
+man 2 open
 ```
 
 To read the documentation of `open` under General commands
 I could've typed:
 
 ```console
-    man 1 open
+man 1 open
 ```
 
 In case you're wondering, we can limit the output of
@@ -160,7 +160,7 @@ In case you're wondering, we can limit the output of
 will list all documentation available for system calls:
 
 ```console
-    apropos -s 2 .
+apropos -s 2 .
 ```
 
 You must've noticed that when we ran `man 1 open` the
@@ -176,7 +176,7 @@ narrow down the search for the appropriate documentation.
 Most man pages sections have an "intro" entry. Try it:
 
 ```console
-    man 1 intro
+man 1 intro
 ```
 
 This entry explains the purpose of that section and
