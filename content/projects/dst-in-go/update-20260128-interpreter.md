@@ -4,7 +4,7 @@ draft: false
 title: Maybe I'm going about it wrong
 ---
 
-I just had a thought today, more like a train of thought.
+I just had a thought today, more like a train of thoughts.
 
 One of the goals, a very important one, of this project is
 to limit or not require the user to change their codebase

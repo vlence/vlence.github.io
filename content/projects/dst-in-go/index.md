@@ -38,16 +38,21 @@ something completely unexpected like bit rot, etc. By
 simulating these faults we can observe how our app behaves
 before it happens in the real world.
 
-## Planned Features & Progress
+## Goals
 
-- [ ] Simulated clock
-    - [ ] Get current time
-    - [ ] Register callback that is called after at least
+- Fast
+- Require minimal/no changes in source code
+
+## Features & Progress
+
+- [x] Simulated clock
+    - [x] Get current time
+    - [x] Register callback that is called after at least
     the given amount of time has passed
-    - [ ] Register callback that is called at regular
+    - [x] Register callback that is called at regular
     intervals
-    - [ ] Sleep
-    - [ ] Cancel timers
+    - [x] Sleep
+    - [x] Cancel timers
 - [ ] Simulated I/O
     - [ ] Filesystem
     - [ ] Network
