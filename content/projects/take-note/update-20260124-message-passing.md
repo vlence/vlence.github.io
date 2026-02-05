@@ -19,3 +19,5 @@ Then I decided to wing it and try sending the entire text
 selection as a query string. I noticed that the path to
 the side panel window looks like a URL so that gave me this
 idea. And it worked!
+
+![Screenshot of Take Note](images/screenshot-20260124.png)
