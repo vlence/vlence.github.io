@@ -4,9 +4,10 @@
 
         {{ if gt (len .Params.externalLinks) 0 }}
         <nav>
-                {{ range .Params.externalLinks }}
-                <a href="{{ .url }}" target="_blank" class="nav-link">
-                        {{ .text }}
+                {{ range $i, $link := .Params.externalLinks }}
+                {{ if gt $i 0 }} | {{ end }}
+                <a href="{{ $link.url }}" target="_blank" class="nav-link">
+                        {{ $link.text }}
                 </a>
                 {{ end }}
         </nav>

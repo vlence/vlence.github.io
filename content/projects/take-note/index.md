@@ -2,7 +2,10 @@
 title: "Take Note"
 date: 2026-01-23T21:54:04+08:00
 draft: false
-github: vlence/takenote
+params:
+    externalLinks:
+    - text: Github
+      url: https://www.github.com/vlence/takenote/
 ---
 
 Take notes about interesting things you read about on the
