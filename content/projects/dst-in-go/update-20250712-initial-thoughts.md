@@ -10,15 +10,36 @@ applications to be written that way.
 
 Traditionally you simply expect interfaces to these as
 part of the standard library and not really as something
-that can be swapped out. By treating them as dependencies
-the simulator that essentially.
+that can be swapped out.
 
-If applications treat these as dependencies then it's
-straightforward to swap them out with simulated ones and
-thereby run a deterministic simulator. The catch here is
-that the app needs to be written from the ground up to be
-simulated using these interfaces. This means apps may need
-to be re-written.
+```go
+import "time"
 
-With my project one of my goals is I want to limit or
-completely get around this wherever possible.
+func MyFunc() {
+    time.Now()
+}
+```
+
+If instead we treated them instead as dependencies then
+a simulator can swap out the implementation.
+
+```go
+func MyFunc(clock Clock) {
+    clock.Now()
+}
+```
+
+If we can introduce interfaces for time, I/O, etc. then
+we can simulate their behaviour and more importantly
+inject some faults.
+
+```go
+func FileReader(io IO) {
+    io.Read(file) // simulator can inject a fault here
+}
+```
+
+The first thing that sticks out to me is that I may
+need to refactor my code so that the simulator can
+do its thing. I'd like to avoid that entirely if
+possible.
