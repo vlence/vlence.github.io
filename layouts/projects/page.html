@@ -2,6 +2,16 @@
 <article>
         <h1>{{ .Page.Title }}</h1>
 
+        {{ if gt (len .Params.externalLinks) 0 }}
+        <nav>
+                {{ range .Params.externalLinks }}
+                <a href="{{ .url }}" target="_blank" class="nav-link">
+                        {{ .text }}
+                </a>
+                {{ end }}
+        </nav>
+        {{ end }}
+
         {{ .Content }}
 </article>
 

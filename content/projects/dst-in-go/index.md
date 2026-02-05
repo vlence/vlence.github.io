@@ -2,8 +2,12 @@
 title: "Deterministic Simulation Testing in Go"
 date: 2026-01-23T14:17:58+08:00
 draft: false
-github: vlence/simtest-go
 summary: Inspired by the VOPR in TigerBeetle.
+params:
+    github: vlence/simtest-go
+    externalLinks:
+    - text: Github
+      url: https://www.github.com/vlence/simtest-go
 ---
 
 I came across the idea of deterministic simulation testing
