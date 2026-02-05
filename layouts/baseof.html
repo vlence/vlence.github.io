@@ -11,7 +11,7 @@
                 {{ .Site.Title }}
         {{ end }}
         </title>
-        <link rel="icon" href="{{ relURL " logo.ico" }}">
+        <link rel="icon" href="{{ relURL "logo.ico" }}">
         <meta name="description" content="{{ or (.Summary | plainify) (partial "about-me.html" .) }}">
         {{ with (templates.Defer (dict "key" "global")) }}
         {{ partial "css.html" . }}
