@@ -92,9 +92,4 @@ body {
         .nav-link:hover {
                 @apply text-yellow-400;
         }
-
-        .ee {
-                opacity: 0;
-                font-size: 0;
-        }
 }
