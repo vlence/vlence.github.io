@@ -35,11 +35,21 @@
         </header>
 
         <main class="mt-10">
-                <span class="ee">{{ partial "prompt.html" }}</span>
+                <span class="ee">
+                        If you're reading this it means the
+                        server could not finish loading the
+                        content on time. The following
+                        information is incomplete. Try again:
+                        {{ .Permalink }}
+                </span>
                 {{ block "main" .}}{{ end }}
-                <span class="ee">Thank you for reading
-                so far. Once again, the contents of this
-                website is fictional. Take care.</span>
+                <span class="ee">
+                        If you're reading this it means the
+                        server could not finish loading the
+                        content on time. The information
+                        above is incomplete. Try again:
+                        {{ .Permalink }}
+                </span>
         </main>
 
         <footer class="py-20">
