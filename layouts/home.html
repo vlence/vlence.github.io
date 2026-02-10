@@ -1,12 +1,97 @@
 {{ define "main" }}
+<h1>About me</h1>
+
 <p>{{ partial "about-me.html" . }}</p>
 
-<p>Below are the some of my content grouped by their
-categories.</p>
+<p>Below are some of my content grouped by their
+category.</p>
 
-<h1>Courses</h1>
+{{ with .GetPage "courses" }}
+<h2>
+        {{ .Title }}
+        <br>
+        <a class="text-sm font-mono" href="{{ .RelPermalink }}">
+                View all
+        </a>
+</h2>
 
-<p>I currently have <a href="courses/web-dev/">
-a course on web development</a>.
-It is still under development.</p>
+<ul>
+        {{ range .Pages }}
+        <li>
+                <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                </a>
+                {{ .Summary | plainify }}
+        </li>
+        {{ end }}
+</ul>
+{{ end }}
+
+{{ with .GetPage "projects" }}
+<h2>
+        {{ .Title }}
+        <br>
+        <a class="text-sm font-mono" href="{{ .RelPermalink }}">
+                View all
+        </a>
+</h2>
+
+<ul>
+        {{ range .Pages }}
+        <li>
+                <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                </a>
+                {{ .Summary | plainify }}
+        </li>
+        {{ end }}
+</ul>
+{{ end }}
+
+{{ with .GetPage "blog" }}
+<h2>
+        {{ .Title }}
+        <br>
+        <a class="text-sm font-mono" href="{{ .RelPermalink }}">
+                View all
+        </a>
+</h2>
+
+<ul>
+        {{ range (.Pages | first 5) }}
+        <li>
+                <time class="italic text-sm" datetime="{{ .Date | time.Format " 2006-01-02T15:04:05Z07:00" }}">
+                        {{ .Date | time.Format ":date_medium" }}
+                </time>
+                <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                </a>
+        </li>
+        {{ end }}
+</ul>
+{{ end }}
+
+{{ with .GetPage "thoughts" }}
+<h2>
+        {{ .Title }}
+        <br>
+        <a class="text-sm font-mono" href="{{ .RelPermalink }}">
+                View all
+        </a>
+</h2>
+
+<ul>
+        {{ range (.Pages | first 5) }}
+        <li>
+                <time class="italic text-sm" datetime="{{ .Date | time.Format " 2006-01-02T15:04:05Z07:00" }}">
+                        {{ .Date | time.Format ":date_medium" }}
+                </time>
+                <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                </a>
+        </li>
+        {{ end }}
+</ul>
+{{ end }}
+
 {{ end }}
