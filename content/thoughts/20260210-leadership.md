@@ -64,26 +64,30 @@ behind and losing out. But is that true? If everyone's
 a leader who's doing the work? If everyone's working who's
 taking the responsibility of making the right decisions?
 
-I think everyone in their capacity should strive to be a
-leader in their role. Leader has become a very fancy word
-though and people seem to get lost in its glamour but the
-picture it paints is one of servitude. It's not so much
-about telling others what to do but to have borne the pain
-of going through it yourself just so that you can lessen
-the pain of the next one going through it. This ultimately
-requires you to bear with them.
+It seems obvious to me that you need both kinds of people:
+the doers and the leaders. One isn't better than the other
+and one cannot do without the other. However I do think,
+or at least I am starting to, that we should naturally
+progress towards being a leader at whatever we do.
 
-To lead well you must know the way well. In simple terms
-it just means being really good at what you do. So good
-that you can even tell when your expertise is unnecessary.
-This takes time and I don't think it does anyone any
-favors to get anxious about where they are in their
-careers, relative to others. Getting that good at anything
-takes a lot of time.
+I think we should naturally progress towards being a
+leader because we naturally get better at doing things,
+if we want to. I think we should want to get better at
+whatever we do. Leading to me seems to be being good at
+what I do and also able to show others how to do this
+thing well.
 
-So what is leading then? I think it's being really good at
-something, enough to be able to tell others how to go
-about it. Anyone can be a leader in their field and role.
-Everyone needs a leader as well.
+Some people can lead a nation, some can lead just one
+other person. I don't think it matters too much how many
+people you can lead and/or are leading; quality over
+quantity.
+
+It takes a lot of time and effort to get good at
+something. I don't think people should worry too much
+about how others are progressing in their own careers;
+it's just unnecessary anxiety and doesn't really help. We
+can learn from them, sure, but there's really no point
+comparing and feeling bad about ourselves. It seems a lot
+more prudent to simply get better at what I do.
 
 [1]: https://www.youtube.com/watch?v=Mg0xgU7dL7g
