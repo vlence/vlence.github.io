@@ -73,9 +73,10 @@ progress towards being a leader at whatever we do.
 I think we should naturally progress towards being a
 leader because we naturally get better at doing things,
 if we want to. I think we should want to get better at
-whatever we do. Leading to me seems to be being good at
-what I do and also able to show others how to do this
-thing well.
+whatever we do. It is important to do things well and
+make sure it is done well. Once you're good at something
+you're at a position to show others how to do that thing
+well; you can lead them.
 
 Some people can lead a nation, some can lead just one
 other person. I don't think it matters too much how many
