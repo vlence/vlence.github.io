@@ -15,8 +15,6 @@ Do your users' browser extensions inject scripts into your website?
 
 Does that grind your gears?
 
-Well then denyscript.js is for you.
-
-[Click this link to get started.][get-started]
+[Well then deny.js is for you.][get-started]
 
 [get-started]: https://github.com/vlence/denyscript.js
