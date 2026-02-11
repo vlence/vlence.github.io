@@ -5,6 +5,8 @@ title: 'deny.js'
 summary: Deny script loading
 ---
 
+![deny.js logo][logo]
+
 Do you have a website?
 
 Do you have users who use your website?
@@ -18,3 +20,4 @@ Does that grind your gears?
 [Well then deny.js is for you.][get-started]
 
 [get-started]: https://github.com/vlence/denyscript.js
+[logo]: logo.sm.png
