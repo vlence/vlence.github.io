@@ -2,7 +2,7 @@
 <article>
         <h1>{{ .Page.Title }}</h1>
 
-        {{ if gt (len .Params.externalLinks) 0 }}
+        {{ if and .Params.externalLinks (gt (len .Params.externalLinks) 0) }}
         <nav>
                 {{ range $i, $link := .Params.externalLinks }}
                 {{ if gt $i 0 }} | {{ end }}

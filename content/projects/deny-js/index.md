@@ -1,0 +1,22 @@
+---
+date: '2026-02-11T20:49:41+08:00'
+draft: false
+title: 'deny.js'
+summary: Deny script loading
+---
+
+Do you have a website?
+
+Do you have users who use your website?
+
+Do your users use browser extensions?
+
+Do your users' browser extensions inject scripts into your website?
+
+Does that grind your gears?
+
+Well then denyscript.js is for you.
+
+[Click this link to get started.][get-started]
+
+[get-started]: https://github.com/vlence/denyscript.js
