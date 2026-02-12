@@ -3,6 +3,10 @@ date: '2026-02-11T20:49:41+08:00'
 draft: false
 title: 'deny.js'
 summary: Deny script loading
+params:
+    externalLinks:
+    - text: Product Hunt
+      url: https://www.producthunt.com/products/deny-js?launch=deny-js
 ---
 
 ![deny.js logo][logo]
