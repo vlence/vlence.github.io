@@ -97,4 +97,10 @@ body {
                 opacity: 0;
                 font-size: 0;
         }
+
+        blockquote {
+                @apply italic;
+                @apply pl-4;
+                @apply border-l-2;
+        }
 }
