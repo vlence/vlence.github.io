@@ -1,0 +1,9 @@
+@layer components {
+        .main-menu {
+                @apply hidden;
+        }
+
+        #main-menu-toggle:checked + .main-menu {
+                @apply block;
+        }
+}

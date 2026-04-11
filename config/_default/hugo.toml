@@ -22,6 +22,16 @@ title = 'Victor Basumatary'
                 name = 'Resume'
                 pageRef = '/resume/'
 
+        [[menus.footer]]
+                name = 'Github'
+                url = 'https://www.github.com/vlence'
+        [[menus.footer]]
+                name = 'Patreon'
+                url = 'https://www.patreon.com/victorbasumatary'
+        [[menus.footer]]
+                name = 'LinkedIn'
+                url = 'https://www.linkedin.com/in/vlence'
+
 [build]
         [build.buildStats]
                 enable = true
