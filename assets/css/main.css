@@ -1,12 +1,6 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
 
-@layer theme, base, components, utilities;
-
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities);
-
 body {
         @apply bg-stone-950 text-gray-300;
         @apply m-auto;
