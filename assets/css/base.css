@@ -1,0 +1,97 @@
+@layer base {
+        body {
+                @apply bg-stone-950 text-gray-300;
+                @apply m-auto;
+                @apply w-full max-w-2xl;
+                @apply font-mono;
+                @apply px-4;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+                @apply font-serif;
+                @apply font-bold;
+        }
+
+        h1,
+        h2 {
+                @apply mt-20 mb-5;
+        }
+
+        h1 {
+                @apply text-4xl;
+        }
+
+        h2 {
+                @apply text-2xl;
+        }
+
+        p,
+        .highlight {
+                @apply mt-10;
+        }
+
+        .highlight pre {
+                @apply p-10;
+                @apply overflow-auto;
+        }
+
+        a {
+                @apply text-blue-600;
+                @apply dark:text-yellow-400;
+        }
+
+        ul {
+                @apply list-disc;
+                @apply pl-4;
+        }
+
+        ol {
+                @apply list-decimal;
+                @apply pl-8;
+        }
+
+        ul, ol {
+                @apply mt-10;
+        }
+
+        p+ul, p+ol {
+                @apply mt-5;
+        }
+        
+        li>ol, li>ul {
+                @apply mt-0;
+        }
+
+        hr {
+                @apply mt-20
+        }
+
+        code:not(pre code) {
+                @apply font-serif;
+                @apply font-bold;
+        }
+
+        .nav-link {
+                @apply text-inherit text-slate-200  transition-all;
+        }
+
+        .nav-link:hover {
+                @apply text-yellow-400;
+        }
+
+        .ee {
+                opacity: 0;
+                font-size: 0;
+        }
+
+        blockquote {
+                @apply italic;
+                @apply pl-4;
+                @apply border-l-2;
+        }
+}
