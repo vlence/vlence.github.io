@@ -26,9 +26,9 @@ I mean, how hard can it be?
 - [x] Edit and save file contents
 - [x] No AI
 - [x] Does not try to follow links automatically
-- [ ] Font resize
-- [ ] Undo button
-- [ ] Redo button
+- [x] Font resize
+- [ ] ~~Undo button~~
+- [ ] ~~Redo button~~
 - [ ] Install as PWA
 
 ## Known Issues
