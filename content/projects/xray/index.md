@@ -14,16 +14,14 @@ params:
 Xray is a simple tool to view the binary contents of
 files.
 
-Another goal of Xray is to make it simple to understand
-the contents of the files. For example when you input a
-video file it should be able to list all the video and
-audio tracks, along with other metadata.
+I just wanna look at what's inside files and scratch that
+itch to write some code to unwind it.
 
 ## Goals
 
 - Intuitive
 - Simple to use
-- Decode binary contents/structure into human form
+- Decode binary contents/structure into human readable form
 
 ## Supported MIME Types
 
@@ -36,3 +34,4 @@ if there is no dedicated renderer. Same for `image/*` and
 - [ ] application/vnd.apple.mpegurl / application/x-mpegurl (HLS) (Partial support)
 - [ ] application/dash+xml (DASH) (Partial support)
 - [ ] image/jpeg (Partial support)
+- [ ] MP4 and QuickTime (In progress)
