@@ -42,6 +42,11 @@ fields ONLY if `version` is 1.
 [The `keys` atom][qt_keys] is a full atom but [the `keys` box][mp4_keys]
 is a regular box with no `version` and `flags` fields.
 
+## elst
+
+In MP4 files the edit list entries use 64 bits for the `edit duration`
+and `media time` fields if `version` is 1 and 32 bits if `version` is 0.
+
 [xray]: /projects/xray
 [qt_meta]: https://developer.apple.com/documentation/quicktime-file-format/metadata_atom
 [qt_keys]: https://developer.apple.com/documentation/quicktime-file-format/metadata_item_keys_atom
