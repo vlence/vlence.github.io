@@ -47,9 +47,18 @@ is a regular box with no `version` and `flags` fields.
 In MP4 files the edit list entries use 64 bits for the `edit duration`
 and `media time` fields if `version` is 1 and 32 bits if `version` is 0.
 
+## colr
+
+[The `colr` atom][qt_colr] expects the `color parameter type` field to be
+either `nclc` or `prof`. On the other hand [the `colr` box][mp4_colr]
+expects `nclx`, `rICC` or `prof`. Additionally the `colr` box also
+includes a `full range flag` field.
+
 [xray]: /projects/xray
 [qt_meta]: https://developer.apple.com/documentation/quicktime-file-format/metadata_atom
 [qt_keys]: https://developer.apple.com/documentation/quicktime-file-format/metadata_item_keys_atom
+[qt_colr]: https://developer.apple.com/documentation/quicktime-file-format/color_parameter_atom
 [mp4_meta]: https://mpeggroup.github.io/FileFormatConformance/?query=%3D%22meta%22
 [mp4_mvhd]: https://mpeggroup.github.io/FileFormatConformance/?query=%3D%22mvhd%22
 [mp4_keys]: https://mpeggroup.github.io/FileFormatConformance/?query=%3D%22keys%22
+[mp4_colr]: https://mpeggroup.github.io/FileFormatConformance/?query=%3Dcolr
