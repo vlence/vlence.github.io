@@ -33,5 +33,6 @@ if there is no dedicated renderer. Same for `image/*` and
 - [x] text/plain
 - [ ] application/vnd.apple.mpegurl / application/x-mpegurl (HLS) (Partial support)
 - [ ] application/dash+xml (DASH) (Partial support)
-- [ ] image/jpeg (Partial support)
+- [ ] image/jpeg (In progress)
 - [ ] MP4 and QuickTime (In progress)
+- [ ] image/png (In progress)
