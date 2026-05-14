@@ -54,6 +54,13 @@ either `nclc` or `prof`. On the other hand [the `colr` box][mp4_colr]
 expects `nclx`, `rICC` or `prof`. Additionally the `colr` box also
 includes a `full range flag` field.
 
+## cslg
+
+The difference here is quite simple. The `cslg` atom uses 32-bit signed
+and unsigned numbers only for all its fields, besides the `version` and
+`flags` fields. However the `cslg` box uses 32-bit signed numbers when
+`version` is 0 or 64-bit signed numbers when `version` is 1.
+
 [xray]: /projects/xray
 [qt_meta]: https://developer.apple.com/documentation/quicktime-file-format/metadata_atom
 [qt_keys]: https://developer.apple.com/documentation/quicktime-file-format/metadata_item_keys_atom
