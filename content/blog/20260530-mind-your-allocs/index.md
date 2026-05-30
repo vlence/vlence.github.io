@@ -1,6 +1,6 @@
 ---
 date: '2026-05-30T11:46:28+08:00'
-draft: true
+draft: false
 title: 'Mind Your Allocations'
 summary: The CPU can either allocate memory or do what you want it to do
 ---
