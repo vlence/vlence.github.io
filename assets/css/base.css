@@ -20,7 +20,8 @@
         }
 
         p,
-        .highlight {
+        .highlight,
+        figure {
                 @apply mt-10;
         }
 
@@ -82,5 +83,11 @@
                 @apply italic;
                 @apply pl-4;
                 @apply border-l-2;
+        }
+
+        figcaption p {
+                @apply mt-2;
+                @apply italic;
+                @apply text-center;
         }
 }
